@@ -10,7 +10,7 @@ import java.util.*;
 // ak < ai < aj 일시
 // 누적합 사용 필요
 // 결과값 long 으로 지정 필요
-
+// O(N^2)
 public class CommuteBus {
 
     public static int N;

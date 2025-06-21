@@ -5,7 +5,7 @@ import java.io.*;
 // Bellman Ford Algorithm 으로는 안될 듯하다.
 // 매 Node 마다 BFS 진행하는 것 실패
 // 잘 이해가 되지 않은 문제
-
+// O(N)
 public class DistanceSum {
 
     public static int N;
@@ -43,10 +43,15 @@ public class DistanceSum {
             int nxt_node = nxt[0];
             int wegiht = nxt[1];
 
-
+            /**
+             * 자식 서브트리의 노드는 부모보다 가까워짐 → subtree[nxt_node] * weight 만큼 줄어듦
+             *
+             * 자식 서브트리 외의 노드는 멀어짐 → (N - subtree[nxt_node]) * weight 만큼 늘어남
+             */
             if(nxt_node != parent) {
 
                 // 자식 : 부모 + 자식의 자식 아닌거를 더하고 자식의 자식인 것을 빼줌 (weight 곱해서)
+                // 자식 결과 = 부모 + (N - subtree[nxt_node] - subtreee[nxt_node]) * weight
                 result[nxt_node] = result[cur] + wegiht * (N - 2 * subtree[nxt_node]);
                 dfs_result(nxt_node, cur);
             }

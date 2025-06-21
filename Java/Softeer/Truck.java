@@ -4,7 +4,7 @@ import java.util.*;
 
 
 // 너무 어렵게 느껴졌던 문제
-
+// O(P log P + Q log (q) +)
 public class Truck {
 
 

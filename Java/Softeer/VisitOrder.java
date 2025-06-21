@@ -7,6 +7,7 @@ import java.util.*;
 // 복잡한 코드 만들어도 될 듯?
 // backtracking 및 DFS 사용 해보기
 // 배열 입력?
+// O(4^(N^2))
 
 public class VisitOrder {
 

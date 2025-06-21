@@ -5,7 +5,7 @@ import java.util.*;
 // 현재 Runtime Error 발생중
 // 이상한 Memory 에 접근하는 듯?
 // 코드 실수
-
+// O 2^H*R*H)
 public class TaskProcess {
     public static int H;
     public static int K;

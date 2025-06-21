@@ -5,6 +5,7 @@ import java.util.*;
 
 // 같은 곳은 반복 안하므로 BFS 보다는 Greedy 형식으로 가는 것이 나을 듯하다.
 // 틀린 경우가 존재함
+// O(H^2 W^2)
 public class RobotPass {
     public static int H, W;
 

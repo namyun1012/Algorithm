@@ -4,7 +4,7 @@ import java.io.*;
 
 // 매 t 마다 하는 것은 무리일 수도
 // 입력은 시간 순서대로 주어지는 것이 맞는 듯, 오랫만에 원트
-
+// O(N)
 public class Crossroad {
 
     public static int N;
@@ -97,7 +97,6 @@ public class Crossroad {
 
             time = min_time;
 
-            // 차량 처리하기, 1개만 내보내기 가능
             for(int dir = 0; dir < 4; dir++) {
                 
                 // 현재 대기중 차량에서만

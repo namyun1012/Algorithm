@@ -1,5 +1,8 @@
 package Softeer;
 
+// O(T * L^2  )
+// insert 가 비효율적
+
 import java.util.*;
 import java.io.*;
 public class DisplayBoard {

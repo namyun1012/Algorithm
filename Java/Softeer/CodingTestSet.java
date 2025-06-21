@@ -3,6 +3,8 @@ import java.io.*;
 import java.util.*;
 // Use Parametric Search
 // Long 쓰면 parseLong 기억 하자!
+
+// O(T * N * log(M)?
 public class CodingTestSet {
 
     public static int N;

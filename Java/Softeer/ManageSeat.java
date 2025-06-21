@@ -1,6 +1,8 @@
 package Softeer;
 import java.util.*;
 import java.io.*;
+
+// O(N * M * Q ^ 2)
 public class ManageSeat {
 
     static int N, M, Q;

@@ -4,6 +4,7 @@ import java.io.*;
 
 // 단순 비교는 시간 탐색 발생함
 // 살짝 비효율적인 코드, LCS 알고리즘 적용
+// O(MN)
 public class SecretMenu2 {
 
     static int N, M, K;

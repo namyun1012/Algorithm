@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 
 // 무난한 원트
-
+// O(N = message_length), 나머진 alphabet, board 크기 정해 졌으므로
 public class PlayFair {
     public static String message;
     public static String key;

@@ -9,6 +9,7 @@ import java.util.*;
 // 대회가 3개임, 시간 초과 중임
 // 알고리즘 고려해 볼 것, Sort 는 필요 없다. => 그래도 시간 초과
 // 문제를 잘 읽자
+// O(N)
 
 public class EvaluateScore {
     public static int N;

@@ -1,5 +1,6 @@
 package Softeer;
 // M, N 등이 작아서 그냥 해도 될 듯?
+// O(N * M)
 
 import java.io.*;
 import java.util.*;

@@ -1,4 +1,5 @@
 package Softeer;
+// O ( Q * H * W)
 
 import java.io.*;
 import java.util.*;

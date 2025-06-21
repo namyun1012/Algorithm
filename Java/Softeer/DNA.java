@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 
 // 모르겠다 하나도 이해 안감
-
+// O(4^N) : 전체 mask 수 * 분할 할 때의 분할 횟수
 public class DNA {
     public static int N, M;
     public static char[][] dnas;

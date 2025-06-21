@@ -6,6 +6,7 @@ import java.io.*;
 // 현재 시간 초과 발생 중, 내리는 알고리즘 수정 필요
 // 그냥 모르겠다.
 // 3N 에서 N 으로 줄여보기 =>  통과함
+// O(N^9) ? N^6 에 game 이 N^3
 
 public class GarageGame {
 

@@ -5,6 +5,8 @@ import java.io.*;
 // MicroServer 에는 1 ~ 3개가 들어갈 수 있음.
 // 시간 복잡도 고려 필요
 // 투 포인터 접근 및 Input 에 맞는 알고리즘 설계 필요
+// O(T * N * log(N))
+
 public class MicroServer {
 
     static int T;

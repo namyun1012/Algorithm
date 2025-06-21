@@ -6,7 +6,7 @@ import java.io.*;
 // S 로 가능한 모든 곳, T 에서 가능한 모든 곳
 // visited 처리도 잘 해줘야 했다.
 // 쉬워보였는데 어려움
-
+// O (N + M)
 
 public class CommuteRoad {
 

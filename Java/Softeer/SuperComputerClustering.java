@@ -5,6 +5,8 @@ import java.util.*;
 
 // Overflow 처리해도 오류 발생 중
 // min, max 처리 필요
+// 결과적으로 O(N)? Integer.MAX , 0 으로 고정되어 있어서 이진 탐색 부분은 O(1)
+
 public class SuperComputerClustering {
 
     public static int N;

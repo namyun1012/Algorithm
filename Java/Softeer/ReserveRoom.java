@@ -3,6 +3,7 @@ import java.io.*;
 import java.util.*;
 
 
+// O (N log N * L ) 사실 상 처음의 sort 만 필요
 public class ReserveRoom {
     static int N, M;
     static Map<String, Integer> map = new HashMap<String, Integer>();
@@ -26,7 +27,6 @@ public class ReserveRoom {
         for(int i = 0; i < N; i++) {
             map.put(temp[i], i);
         }
-
 
         for(int i = 0; i < M; i++) {
             st = new StringTokenizer(br.readLine());

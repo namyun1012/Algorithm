@@ -1,7 +1,7 @@
 package Softeer;
 import java.io.*;
 import java.util.*;
-
+// O(3^T)
 public class TrafficSystem {
 
     public static int N;

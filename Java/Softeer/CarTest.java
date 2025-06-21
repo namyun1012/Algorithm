@@ -4,7 +4,7 @@ import java.util.*;
 
 // 우선 탐색을 이진 탐색으로 진행함
 // 의외로 바로 정답이 나옴? 이게 DNA 와 같은 3단계?
-
+// O (Q * log(N) + N log N)
 public class CarTest {
     public static int n;
     public static int q;

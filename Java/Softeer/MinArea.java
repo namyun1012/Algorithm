@@ -4,7 +4,7 @@ import java.util.*;
 
 // Backtracking 압축 중요
 // 압축 조건이 빡센 편이다.
-
+// 최대 O(N^K)
 public class MinArea {
 
     public static int N, K;
@@ -28,7 +28,8 @@ public class MinArea {
             result = Math.min(result, (max_x - min_x) * (max_y - min_y));
             return;
         }
-
+        
+        // cur_coood 포함해서 진행
         for (Coord cur_coord : coords[index]) {
             int new_max_x = Math.max(max_x, cur_coord.x);
             int new_max_y = Math.max(max_y, cur_coord.y);

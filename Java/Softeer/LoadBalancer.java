@@ -5,6 +5,7 @@ import java.io.*;
 // 현재 시간 초과 문제 발생 중
 // 아래 같은 구현 방식 말고, 위상 정렬 방식으로 풀이
 // 위상 정렬의 큰 변형, 다시 한번 확인
+// O(N * R)
 public class LoadBalancer {
     static int N;
     static long K;
@@ -48,12 +49,12 @@ public class LoadBalancer {
             st = new StringTokenizer(br.readLine());
             int r = Integer.parseInt(st.nextToken());
 
-            // LoadBalancer 인 경우
+            // Work Node 인 경우
             if (r == 0) {
                 nodes[i] = new Node(i);
             }
 
-            // 아닌 경우
+            // Load Balancer 인 경우
             else {
                 int[] temp = new int[r + 1];
                 for (int j = 1; j <= r; j++) {
