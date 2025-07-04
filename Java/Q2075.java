@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 // 모든 수는 자신의 한 칸 위에 있는 수보다 큼
+// 그냥 Priority Queue 에 넣고 풀어도 되는 듯?
 // 바로 정답
 public class Q2075 {
 
