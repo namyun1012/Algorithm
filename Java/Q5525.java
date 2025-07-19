@@ -5,6 +5,7 @@ import java.util.*;
 // 아래 코드는 정답을 기대하긴 어려울 듯
 // 마지막 껏 더하는 것 추가 후 정답
 
+
 public class Q5525 {
 
     static int N;
